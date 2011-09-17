@@ -14,7 +14,6 @@ class LambdaQueuer
 		EventMachine.run do
 			begin
 				connection = AMQP.connect(:host => @host, :port => @port)
-				puts "Connected to AMQP broker. Running #{AMQP::VERSION} version of the gem..."
 			  	channel = AMQP::Channel.new(connection)
 			  	exchange = channel.direct(@exchange, :auto_delete => true)
 			  	queue = channel.queue(@routing_key, :auto_delete => false, :passive => true)
