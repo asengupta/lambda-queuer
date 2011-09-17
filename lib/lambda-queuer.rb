@@ -31,5 +31,5 @@ class LambdaQueuer
 	end
 end
 
-LambdaQueuer.new('lambda_exchange', 'lambda').post {|all| all}
+#LambdaQueuer.new('lambda_exchange', 'lambda').post {|all| all}
 
