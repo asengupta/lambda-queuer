@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
 	s.summary     = "A simple class atop sourcify and amqp which can queue stringified lambdas over RabbitMQ"
 	s.description = "A class atop sourcify and amqp which can queue stringified lambdas over RabbitMQ"
 	s.authors     = ["Avishek Sen Gupta"]
-	s.email       = 'nick@quaran.to'
+	s.email       = 'avishek.sen.gupta@gmail.com'
 	s.files       = ["lib/hola.rb"]
-	s.homepage    = 'http://rubygems.org/gems/hola'
+	s.homepage    = 'http://rubygems.org/gems/lambda-queuer'
 end
