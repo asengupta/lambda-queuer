@@ -41,5 +41,5 @@ class LambdaQueuer
 	end
 end
 
-LambdaQueuer.new(:exchange => 'lambda_exchange', :request_routing_key => 'lambda', :response_routing_key => 'lambda_response').post {|data| true}
+#LambdaQueuer.new(:exchange => 'lambda_exchange', :request_routing_key => 'lambda', :response_routing_key => 'lambda_response').post {|data| true}
 
