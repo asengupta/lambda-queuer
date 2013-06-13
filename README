@@ -1,0 +1,1 @@
+A simple class atop sourcify and amqp which can queue stringified lambdas over RabbitMQ
